@@ -1,25 +1,26 @@
 # Spring Cloud
 
-== Technologies
+### Technologies
 
-Spring Boot
-Spring Framework
-Spring Data
-Spring Cloud GCP
-GCP AppEngine
-GCP Cloud SQL
+*  Spring Boot 2.1.2.RELEASE
+*  Spring Framework
+*  Spring Data
+*  Spring Cloud GCP
+*  GCP AppEngine
+*  GCP Cloud SQL
 
 Source: https://github.com/spring-cloud/spring-cloud-gcp
 
-== Running the application
+### Running the application
 
 `$ mvn spring-boot:run`
  
-== Deploy
+### Deploy to App Engine
 
- $ mvn appengine:deploy
+ `$ mvn appengine:deploy` 
 
-== Browse
+### Browse
 
- $ gcloud app browse
- $ gcloud app logs read
+ `$ gcloud app browse` 
+ `$ gcloud app logs read | less` 
+
